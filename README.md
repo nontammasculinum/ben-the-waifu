@@ -17,3 +17,5 @@ SPEECH TO TEXT (STT), LANGUAGE MODEL (LM), and TEXT TO SPEECH (TTS)
 [ ] TTS
 
 &emsp;idt you understand how much pain this is being
+
+To run the gpt file you will need a key.txt, in key.txt should be your api_key which you can get from open ais website :|
