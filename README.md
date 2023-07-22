@@ -27,3 +27,4 @@ import lm.py
 message_str = message("user", "SOME MESSAGE")
 ```
 where SOME MESSAGE is replaced with, you guessed it, some message.
+message returns a string of the response from chatgpt
