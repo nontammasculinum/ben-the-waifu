@@ -12,6 +12,5 @@ def message(role, content):
     messages.append({"role": role, "content": content});
     _content = openai.ChatCompletion.create(model="gpt-3.5-turbo", messages=messages)["choices"]
     messages.append({"role": _content[0]["message"]["role"], "content": _content[0]["message"]["content"]})
-    print(type(_content[0]))
-    print(_content[0]["message"]["content"])
+    return _content[0]["message"]["content"]
 
